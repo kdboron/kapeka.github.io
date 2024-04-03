@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAPEKA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2; /* Body color */
+            color: #333; /* Body text color */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #663300; /* Header color */
+            color: #fff; /* Header text color */
+            text-align: center;
+            padding: 20px 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Header font style */
+            font-size: 36px; /* Header text size */
+        }
+        nav {
+            background-color: #996633; /* Navigation color */
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff; /* Navigation text color */
+            text-decoration: none;
+            padding: 10px 20px;
+            font-family: Arial, sans-serif; /* Body and navigation font style */
+            font-size: 18px; /* Body and navigation text size */
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .menu-item {
+            width: 250px;
+            margin: 20px;
+            text-align: center;
+        }
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+        .menu-item p {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KAPEKA</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="img/latte.jpeg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Price: 80php</p>
+        </div>
+        <div class="menu-item">
+            <img src="img/cappuccino.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Price: 80php</p>
+        </div>
+        <div class="menu-item">
+            <img src="img/americano.jpg" alt="Americano">
+            <h3>Americano</h3>
+            <p>Price: 70php</p>
+        </div>
+        <div class="menu-item">
+            <img src="img/tea.png" alt="Tea">
+            <h3>Tea</h3>
+            <p>Price: 50php</p>
+        </div>
+    </div>
+</body>
+</html>
